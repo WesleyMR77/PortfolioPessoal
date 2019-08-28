@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.div-header{
+    background-image: url(https://images.pexels.com/photos/2039642/pexels-photo-2039642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+.div-nav{
+    display: flex;
+    min-width: 100vw;
+
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     
+    font-size: 1.6em;
+    background-color: #212529;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
+.space-name{
+    padding-left: 70px;
+}
+.ul-nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-right: 5vw;
+    opacity: 1;
+    
+}
+
+.a-noformation{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.img-size-wesley{
+    margin-top: 180px;
+    width: 220px;
+    height: 220px;
+}
+
+.center{
+    text-align: center;
+}
+
+.circle{
+    border: solid 1px white;
+    border-radius: 125px; 
+}
+
+.phrase{
+    margin-top: 25px;
+    font-size: 3em;
+    color: white;
+}
+
+.name{
+    margin-top: 25px;
+    font-size: 2em;
+    color: white;
+    font-style: italic;
+}
+
+.div-line{
+    text-align: center;
+}
+
+.div-size-about{
+    width: 300px;
+    display: inline-block;
+}
+
+
+
+
+.h2-about{
+    font-size: 3.4em;
+    color: #212529;
+    padding-top: 0;
+    margin: 0;
+    
+}
+/* .h2-projects{
+    font-size: 3.4em;
+    color: #212529;
+    margin-top: 150px;
+    margin-bottom: 0
+} */
+.h3-titration{
+    font-size: 1.5em;
+    font-style: italic;
+    color:  rgb(112, 117, 117);
+}
+
+.h4-title-about{
+    font-size: 2em;
+}
+
+.paragraph-gray{ 
+    color: rgb(112, 117, 117);
+    font-weight: 300;
+    font-size: 1.16em;
+    text-align: center;
+    list-style: none;
+}
+
+.section-space{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about{
+    background-color: white;
+}
+
+.projects{
+    background-color: rgb(238, 247, 247)
+}
+
+label{
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    label{
+        display: block;
+        cursor: pointer;
+       text-align: right;
+       margin-right: 40px;
+       font-size: 1.1em;
+
+
+    }
+    .ul-nav{
+        display: none;
+
+    }
+}
