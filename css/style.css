@@ -14,33 +14,38 @@ body{
     background-size: cover;
 }
 
+.menu {
+    flex: 1;
+    font-size: 1.3em;
+    text-align: right;
+    margin-right: 70px;
+    margin-left: -270px;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    line-height: 70px;
+}
 
 .div-nav{
+    border-bottom: 1px solid #EAEAEB;
+    height: 70px;
+    line-height: 70px;
     display: flex;
     min-width: 100vw;
-
-    flex-wrap: wrap;
-    padding-top: 0px;
-    padding-bottom: 0px;
-     
-    font-size: 1.6em;
+    flex-wrap: wrap;    
     background-color: #212529;
-    opacity: 1;
+  
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
 }
 
 .space-name{
     padding-left: 70px;
-}
-.ul-nav{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding-right: 5vw;
-    opacity: 1;
-   
-    
+    font-size: 1.6em;
+    flex: 1;
 }
 
 .a-noformation{
@@ -161,24 +166,6 @@ label{
 
 
 
-
-.nav {
-    border-bottom: 1px solid #EAEAEB;
-    display: block;
-    height: 50px;
-    line-height: 70px;
-}
-.menu {
-    margin: 0 30px 0 0;
-}
-.menu a {
-    clear: right;
-    text-decoration: none;
-    color: gray;
-    margin: 0 10px;
-    line-height: 70px;
-}
-
 span {
     color: white;
 }
@@ -191,25 +178,28 @@ label {
     width: 26px;
     float: right;
 }
-#toggle {
-    display: none;
-}
+
 
 
 @media only screen and (max-width: 900px) {
     label {
         display: block;
         cursor: pointer;
+        color: white;
     }
     .menu {
         text-align: center;
         width: 100%;
         display: none;
+        margin: 0;
+        opacity: 1;
+        background-color: #212529;
     }
     .menu a {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
+        min-width: 100vw;
      
     }
     #toggle:checked + .menu {
@@ -225,7 +215,6 @@ label {
         flex-wrap: wrap;
         padding-top: 0px;
         padding-bottom: 0px;        
-        font-size: 1.6em;
         background-color: #212529;
         opacity: 1;
         font-family: Arial, Helvetica, sans-serif;
