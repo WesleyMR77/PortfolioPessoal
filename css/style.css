@@ -98,6 +98,10 @@ body{
     text-align: center;
 }
 
+.div-line div{
+    margin-bottom: 75px;
+}
+
 .div-size-about{
     width: 300px;
     display: inline-block;
@@ -106,7 +110,6 @@ body{
 .left{
     text-align: left;
 }
-
 
 
 
@@ -157,14 +160,8 @@ body{
 label{
     display: none;
 }
-#toggle{
     display: none;
 }
-
-
-
-
-
 
 span {
     color: white;
@@ -177,6 +174,11 @@ label {
     display: none;
     width: 26px;
     float: right;
+}
+
+.ability{
+    background-color: white;
+
 }
 
 
@@ -223,4 +225,21 @@ label {
     
     
 }
+
+
+.img-size{
+    width: 350px;
+    height: 200px;
+}
+
+.inline-objects{
+    display: inline-block;
+}
+
+.img-margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 
