@@ -183,6 +183,20 @@ label {
 
 }
 
+.img-size{
+    width: 350px;
+    height: 200px;
+}
+
+.inline-objects{
+    display: inline-block;
+}
+
+.img-margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 @media only screen and (max-width: 900px) {
@@ -224,23 +238,15 @@ label {
         font-family: Arial, Helvetica, sans-serif;
         position: fixed;
     }
+
+    .img-size{
+        width: 300px;
+        height: 175px;
+    }
     
     
 }
 
 
-.img-size{
-    width: 350px;
-    height: 200px;
-}
-
-.inline-objects{
-    display: inline-block;
-}
-
-.img-margin{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 
