@@ -111,7 +111,9 @@ body{
     text-align: left;
 }
 
-
+.space-magin-img{
+    margin-bottom: 70px;
+}
 
 .h2-about{
     font-size: 3.4em;
@@ -188,6 +190,11 @@ label {
     height: 200px;
 }
 
+.img-size-habilidades{
+    width: 225px;
+    height: 225px;
+}
+
 .inline-objects{
     display: inline-block;
 }
@@ -197,7 +204,22 @@ label {
     margin-right: 20px;
 }
 
+footer{
+    max-width: 100vw;
+    height: 80px;
+    background-color: #16191b
+}
 
+footer {
+    text-align: center;
+}
+.footer-img-size{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    max-width: 50px;
+    max-height: 50px;
+}
 
 @media only screen and (max-width: 900px) {
     label {
