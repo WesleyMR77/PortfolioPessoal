@@ -146,6 +146,7 @@ body{
     list-style: none;
 }
 
+
 .section-space{
     padding-top: 70px;
     padding-bottom: 70px;
@@ -188,6 +189,10 @@ label {
 .img-size{
     width: 350px;
     height: 200px;
+}
+.paragraph-size{
+    width: 350px;
+    height: 70px;
 }
 
 .img-size-habilidades{
@@ -263,6 +268,9 @@ footer{
         width: 300px;
         height: 175px;
     }
+    .paragraph-size{
+        width: 300px;
+    }
 
     .img-size-habilidades{
         width: 160px;
@@ -279,10 +287,7 @@ footer{
         margin-top: 12px;
         max-width: 35px;
         max-height: 35px;
-    }
-
-    
-    
+    }  
 }
 
 
